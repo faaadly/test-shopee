@@ -1,0 +1,12 @@
+{
+    "ficturesfolder": "cypress/fictures",
+    "integrationforlder": "cypress/integration",
+    "pluginsfolder": "cypress/plugins/index.js",
+    "supportfolder": "cypress/support/index.js",
+    "pageLoadTimeout": 180000,
+    "defaultCommandTimeout": 180000,
+    "viewportWidth": 1280,
+    "viewportHeight": 720,
+    "chromeWebSecurity": false,
+    "Origin":"https://www.tokopedia.com"
+}
