@@ -1,35 +1,24 @@
 {
-  "name": "discovery-automation",
+  "name": "Test Shopee",
   "version": "1.0.0",
-  "description": "Running automation discovery",
+  "description": "Running Test Shopee",
   "main": "index.js",
   "scripts": {
-    "cypress:run": "cypress run",
-    "cypress:open-stag": "cypress open --env NODE_ENV=staging",
-    "cypress:open-stag-m": "cypress open --env NODE_ENV=staging-mobile",
-    "cypress:open-beta": "cypress open --env NODE_ENV=beta",
-    "cypress:open-beta-m": "cypress open --env NODE_ENV=beta-mobile",
-    "cypress:open-prod": "cypress open --env NODE_ENV=production",
-    "cypress:open-prod-m": "cypress open --env NODE_ENV=production-mobile",
-    "cypress:stag": "cypress run --env NODE_ENV=staging",
-    "cypress:stag-m": "cypress run --env NODE_ENV=staging-mobile",
-    "cypress:beta": "cypress run --env NODE_ENV=beta",
-    "cypress:beta-m": "cypress run --env NODE_ENV=beta-mobile",
-    "cypress:prod": "cypress run --env NODE_ENV=production",
-    "cypress:prod-m": "cypress run --env NODE_ENV=production-mobile"
-
+    "start": "cypress run"
+    "open": "cypress open"
+    
     
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yunikawinarni/discovery-automation.git"
+    "url": "https://github.com/faaadly/test-shopee"
   },
-  "author": "QA Discovery",
+  "author": "faaadly",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yunikawinarni/discovery-automation/issues"
+    "url": "https://github.com/faaadly/test-shopee"
   },
-  "homepage": "https://github.com/yunikawinarni/discovery-automation#readme",
+  "homepage": "https://github.com/faaadly/test-shopee",
   "dependencies": {
     "cypress": "^3.0.2"
   },
